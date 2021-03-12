@@ -1,0 +1,304 @@
+body {
+    text-transform: uppercase;
+}
+
+.display-none {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+.hamburger::after {
+    display: none;
+}
+.hamburger::before {
+    display: none;
+}
+
+.title-section {
+    font-size: 24px;
+    padding: 20px;
+}
+
+.form-section {
+    font-size: 24px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* Menu */
+.nav-box {
+    padding: 14px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu-items {
+    border-bottom-width: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 0 15px 0 15px;
+    outline: none;
+}
+
+.menu-item img {
+    width: 12px;
+    height: 12px;
+}
+
+.menu-item a {
+    color: #707070;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-item a:hover {
+    color: #000000;
+    text-shadow: 0 0 1px #000000;
+}
+
+/* end menu */
+
+
+/* start header */
+.bg-1 {
+    /* sizes */
+    width: 100%;
+    height: 95vh;
+
+    /* position */
+    position: relative;
+
+    /* bg */
+    background-image: url("../img/bg-1.jpg");
+    background-size: cover;
+}
+
+.contacts-header {
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(255,255,255, 0.4);
+    padding: 5px;
+}
+
+.box-title {
+    /* sizes */
+    width: 100%;
+
+    /* position */
+    position: absolute;
+    margin: 0;
+    top: 38%;
+
+    /* text */
+    text-align: center;
+}
+
+.title-1 {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 30px;
+}
+
+.about-us {
+    /* sizes */
+    padding: 12px 55px 12px 55px;
+
+    /* position */
+    margin-top: 20px;
+
+    /* text */
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    text-outline: none;
+    text-decoration: none;
+
+    /* styles */
+    border: 1px solid #ffffff;
+    border-radius: 32px;
+}
+
+.about-us:hover {
+    background-color: #ffffff;
+    color: rgba(0,0,0, 1);
+    box-shadow: 0 0 13px rgba(255,255,255,0.5);
+    transition: 0.4s;
+}
+
+/* achivment */
+.achivment {
+    text-align: center;
+}
+
+.circle {
+    width: 95px;
+    height: 95px;
+}
+
+.little-title {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+}
+.about-me-text {
+    font-size: 16px;
+    text-transform: none;
+    text-align: justify;
+    text-indent: 1.5em;
+    padding: 5px 15px 5px 15px;
+}
+.me-img {
+    height: 125px;
+    width: 125px;
+}
+.btn-close {
+    color: #85a9ef;
+    font-size: 18px;
+    font-weight: 200;
+    background: none;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    display: none;
+}
+.btn-close:hover {
+    color: #707070;
+}
+.btn-show {
+    color: #85a9ef;
+    font-size: 18px;
+    font-weight: 200;
+    background: none;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+.btn-show:hover {
+    color: #707070;
+}
+/* end achivment */
+
+/* resume */
+.resume {
+    text-align: center;
+}
+/* end resume */
+
+/* recommendation */
+.recommendation {
+    text-align: center;
+}
+/* end recommendation */
+
+/* contacts */
+.contacts {
+    text-align: center;
+}
+.gray {
+    background-color: #545353;
+    padding: 0;
+}
+.white {
+    padding: 0;
+}
+.input-text {
+    width: 70%;
+    font-size: 16px;
+    border-radius: 32px;
+    border: 1px solid #ffffff;
+    text-indent: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+.input-text:focus {
+    border-radius: 32px;
+    border: 1px solid #ffffff;
+    outline: none;
+    background-color: #ffffff;
+    color: rgba(0,0,0, 1);
+    box-shadow: 0 0 13px rgba(255,255,255,0.5);
+    transition: 0.4s;
+}
+.btn-submit {
+    width: 70%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 32px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin: 5px;
+}
+.form {
+    padding-top: 70px;
+}
+.btn-submit:hover {
+    background-color: #ffffff;
+    color: rgba(0,0,0, 1);
+    box-shadow: 0 0 13px rgba(255,255,255,0.5);
+    transition: 0.4s;
+}
+/* end contacts */
+
+/* footer */
+footer {
+    padding: 35px;
+    padding-top: 45px;
+}
+.footer-boxes {
+    display: inline-block;
+}
+.stars {
+    width: 12px;
+    height: 12px;
+}
+
+.social {
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    margin: 5px;
+}
+
+.social-header {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.e-mail {
+    font-size: 14px;
+    text-transform: lowercase;
+    color: #707070;
+}
+
+.left {
+    float: right;
+    padding-top: 25px;
+}
+
+.right {
+    float: left;
+    padding-top: 25px;
+}
+
+.column .is-one-fifth {
+    text-align: center;
+}
+
+.is-three-fifths {
+    text-align: center;
+}
+
+/* end footer */
