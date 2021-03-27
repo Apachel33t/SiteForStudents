@@ -37,7 +37,7 @@ class Mail extends PHPMailer
             http_response_code(400); // Выбиваем Bad Request для клиента если по условию проходит
             throw new Exception('Введите корректные данные.');
         } else {
-            $this->sendMail('volosovczov@gmail.com', '323640fF', 'apachel33t@yandex.ru', 'Письмо с сайта.', $this->returnMessage($name, $phone));
+            $this->sendMail('volosovczov@gmail.com', 'qwerty', 'apachel33t@yandex.ru', 'Письмо с сайта.', $this->returnMessage($name, $phone));
             $this->savingContact($name, $phone);
         }
     }
